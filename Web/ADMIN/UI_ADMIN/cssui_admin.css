@@ -1,0 +1,128 @@
+
+.cabecera{
+    background-color: rgb(255, 191, 120);
+    height: 80px;  
+    width: 100%; 
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center; 
+}
+
+.princip{   
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+.Titulo{
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+input{
+    padding: 5px;
+    margin-top: 1px;
+    margin-left: 10px;
+    font-size: 17px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black; 
+}
+    
+.barra{
+    width: 60px;
+    height: 60px;
+    
+} 
+.izquierda{
+    background-color: rgb(255, 191, 120);
+    height: 950px;
+    float: left;
+    width: 331px;
+    border: 1px solid black;  
+}
+#menu1,#menu2,#menu3{
+    margin-top: 32px;
+    margin-left: 15px;
+    font-size: 15px;
+}  
+
+#inicio{
+    margin-top: 670px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+#salir{
+
+    margin-left: 30px;
+    margin-top:  25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 241, 210); 
+    height: 952px
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px; /* Aumentado para más espacio */
+    margin-bottom: 160px;
+    margin-top: 80px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 100px; 
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+.icon-text {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.icon-button {
+    padding: 8px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 142, 13);
+    border-radius: 10px;
+    border: solid 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon-button:hover{
+    background-color: #8a2d02;
+    color: white;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 130px;
+}
+

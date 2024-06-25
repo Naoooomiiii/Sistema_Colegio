@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(255, 241, 210); 
+}
+
+.cabecera{
+    background-color: rgb(255, 191, 120);
+    height: 80px;  
+    width: 100%; 
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center; 
+}
+
+.princip{   
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+.Titulo{
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#inicio{
+    margin-top: 670px;
+    margin-left: 30px;
+}
+#salir{
+
+    margin-left: 30px;
+    margin-top:  25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.inputT{
+    padding: 5px;
+    margin-top: 1px;
+    margin-left: 10px;
+    font-size: 17px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black; 
+}
+    
+.barra{
+    width: 60px;
+    height: 60px;
+    
+} 
+.izquierda{
+    background-color: rgb(255, 191, 120);
+    height: 999px;
+    float: left;
+    width: 331px;
+    border: 1px solid black;  
+}
+#menu1,#menu2,#menu3{
+    margin-top: 32px;
+    margin-left: 15px;
+    font-size: 15px;
+}  
+.derecha{
+    background-color:rgb(255, 241, 210); 
+    height: 961px
+    
+}
+
+#abc{
+    visibility: hidden;
+}
+.subtitle {
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 40px; /* Espacio arriba del título */
+  
+}
+
+.container {
+    background-color: rgb(253, 216, 146);
+    padding: 20px;
+    height: 250px;
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    margin-left: auto;
+    margin-right: 73px;
+    border-radius: 5px;
+    max-width: 950px; /* Ancho máximo para el contenedor */
+    position: relative; /* Posición relativa para posicionar el botón */
+    border: solid 1px black;
+    
+}
+
+.content {
+    margin-bottom: 20px; /* Espacio entre el título y el contenido */
+}
+
+.small-subtitle {
+    font-size: 18px;
+    margin: 0; /* Elimina el margen para que esté pegado arriba */
+}
+
+.vertical-words {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column; /* Alinea los elementos en columna */
+}
+
+.field {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.field label {
+    flex: 0 0 20%; /* Establece ancho fijo para las etiquetas */
+    text-align: left; /* Alinea las etiquetas a la derecha */
+    margin-right: 0px; /* Espacio entre etiqueta y campo */
+}
+
+.field select{
+    flex: 1; /* Toma el resto del espacio disponible */
+    padding: 5px 15px;
+    font-size: 14px;
+    max-width: 233px; /* Ancho máximo */
+    background-color: rgb(255, 139, 86);
+    border-radius: 5px;
+}
+
+.field input {
+    flex: 1; /* Toma el resto del espacio disponible */
+    padding: 5px 15px;
+    font-size: 14px;
+    max-width: 200px; /* Ancho máximo */
+    background-color: rgb(255, 170, 136);
+    border-radius: 5px;
+}
+
+
+.create-account-button {
+    position: absolute; /* Posición absoluta para fijar el botón */
+    bottom: 20px; /* Alinea el botón en la parte inferior */
+    right: 20px; /* Alinea el botón a la derecha */
+    padding: 10px 20px;
+    background-color: #ff5e14;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-account-button:hover {
+    background-color: #8a2d02;
+    color: white;
+}
+
+.empty-container {
+    background-color: rgb(253, 216, 146);
+    padding: 20px;
+    margin: 70px auto;
+    border-radius: 5px;
+    height: 420px;
+    max-width: 950px;
+    min-height: 100px; /* Altura mínima del contenedor vacío */
+    margin-left: auto;
+    margin-right: 73px;
+    border: solid 1px black;
+}
+.vistaprevia{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 1px
+        
+}

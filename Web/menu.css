@@ -1,0 +1,38 @@
+.menu {
+    position: absolute;
+    top: 51px;
+    right: -18vmax;
+    background-color: #FFBF78;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon img {
+    cursor: pointer;
+    width: 24px
+}
+#separador{
+    height: 60vh;
+}
+#menu_container {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: black;
+    padding: 12px 40px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+}
+

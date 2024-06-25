@@ -1,0 +1,168 @@
+body {
+    background-color: #FEFFD2;
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    background: #FFBF78;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#icon_menu {
+    width: 40px;
+}
+
+#icon_menu img {
+    width: 100%;
+    height: 100%;
+}
+
+#bienvenida_texto {
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+}
+
+#bienvenida_texto p {
+    margin: 0 10px;
+}
+
+#profesor_texto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+h3 {
+    margin-left: 1%;
+}
+
+#contenedor_total_listas {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ingreso_notas_lista {
+    width: 90%;
+    max-width: 800px;
+    background-color: #FFEEA9;
+    border: 1px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.button {
+    width: 120px;
+    height: 32px;
+    margin: 10px;
+    background: #FF7D29;
+    color: #232323;
+    border: 1px solid #232323;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#pagination_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#botones_accion_notas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#button_guardar_notas, #button_cancelar_notas {
+    margin: 0 10px;
+}
+
+#filtro_busqueda div, #ingreso_codigo {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#filtro_busqueda select, #codigo_numero_alumno {
+    width: 320px;
+    height: 32px;
+    padding: 4px 8px;
+    background: #FECC95;
+    color: #232323;
+    border: 1px solid #232323;
+    border-radius: 4px;
+    font-size: 14px;
+}
+section {
+    width: 90%;
+    margin: 0 auto 60px;
+    padding: 2%;
+    background-color: #FFEEA9;
+    border: 1px solid #000;
+}
+
+#botones_accion_notas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#button_buscar_notas, #button_limpiar_notas {
+    margin: 0 120px;
+}
+
+#iconos_acciones{
+    display: flex;
+    justify-content: space-around;
+}
+#iconos_acciones img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    
+}
